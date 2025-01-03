@@ -15,6 +15,9 @@ public class OrderDao {
                 new Order(101, "Mobile", 1, 30000),
                 new Order(58, "Book", 4, 2000),
                 new Order(205, "Laptop", 1, 150000),
+                new Order(206, "Disc", 1, 150),
+                new Order(207, "FloppyDrive", 1, 151),
+                new Order(208, "Mouse", 1, 152),
                 new Order(809, "headset", 1, 1799),
                 new Order(111, "Car", 1, 200000))
                 .collect(Collectors.toList());
